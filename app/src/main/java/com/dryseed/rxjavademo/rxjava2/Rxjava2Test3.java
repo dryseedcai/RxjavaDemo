@@ -15,7 +15,11 @@ import io.reactivex.functions.Function;
 /**
  * Created by caiminming on 2017/11/25.
  * <p>
- * Rxjava2.0 map/flatMap
+ * Rxjava2.0 map / flatMap / concatMap / switchMap
+ * <p>
+ * switchMap :
+ * switchMap的原理是将上游的事件转换成一个或多个新的Observable，但是有一点很重要，
+ * 就是如果在该节点收到一个新的事件之后，那么如果之前收到的时间所产生的Observable还没有发送事件给下游，那么下游就再也不会收到它发送的事件了。
  */
 
 public class Rxjava2Test3 {

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         //Rxjava2Test4.test();
         //Rxjava2Test5.test();
         //Rxjava2Test6.test();
-        Rxjava2Test6.test2();
+        //Rxjava2Test6.test2();
+        Rxjava2Test6.test3();
     }
 }
